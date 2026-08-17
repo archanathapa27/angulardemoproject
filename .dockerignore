@@ -1,0 +1,29 @@
+# .dockerignore
+
+# Version control
+.git
+.gitignore
+
+# Dependencies
+node_modules
+vendor
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Build artifacts
+dist
+build
+*.log
+
+# IDE / OS
+.vscode
+.idea
+.DS_Store
+
+# Docs, tests (if not needed at runtime)
+tests/
+*.md
